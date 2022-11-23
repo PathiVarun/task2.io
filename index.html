@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js" integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script src="https://kit.fontawesome.com/82eaa17ff8.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="images/logo-favicon.png" sizes="16x16" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Yadav Civil Contractors</title>
+</head>
+<body>
+<!-- NAVBAR-->
+<nav class="navbar navbar-expand-lg py-3 navbar-light bg-light shadow p-3 mb-5 bg-white rounded zindex-sticky:2001 fixed-top">
+    <div class="container">
+    <a href="index.html" class="navbar-brand">
+        <!-- Logo Image -->
+        <img src="images/logo-favicon.png" width="55" alt="" class="d-inline-block align-middle mr-2">
+        <!-- Logo Text -->
+        <span class="text-uppercase font-weight-normal" id="company">Yadav Civil Contractors</span>
+    </a>
+
+    <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+
+    <div id="navbarSupportedContent" class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto" id="menu">
+        <li class="nav-item active"><a href="index.html" class="nav-link">Home <span class="sr-only">(current)</span></a></li>
+        <li class="nav-item"><a href="#aboutus" class="nav-link">About</a></li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+                Services <i id="drop-down-button" class="fas fa-chevron-circle-down"></i>
+                
+            </a>
+                <div class="dropdown-menu dropdown-menu-right shadow p-3 mb-5 bg-white rounded" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item " href="bungalow-construction.html">Bunglow Construction</a>
+                <a class="dropdown-item" href="home-renovation.html">Home Renovation</a>
+                <a class="dropdown-item" href="waterproofing.html">Waterproofing</a>
+                <a class="dropdown-item" href="flooring-solution.html">Flooring Solution</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#service-area">More</a>
+                </div>
+            </li>
+        <li class="nav-item"><a href="contact-us.html" class="nav-link">Contact</a></li>
+        <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
+        </ul>
+    </div>
+    </div>
+</nav>
+<!--End of Navigation Bar-->
+
+    <div class="main-container">
+        <!--Slider Starts from here-->
+
+    <header>
+        <div id="sliders" class="carousel slide caption-animated" data-ride="carousel" data-pause="hover" data-interval="5000">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <!-- Slide One - Home Renovation -->
+            <div class="carousel-item active" style="background-image: linear-gradient( to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.4)), url(images/slider-01.jpg)">
+            <div class="carousel-caption d-none d-md-block">
+                <h1 class="display-4">Home Renovation</h1>
+            </div>
+            </div>
+            <!-- Slide Two - Bungalow Construction -->
+            <div class="carousel-item" style="background-image: linear-gradient( to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.4)), url(images/slider-02.jpg)">
+            <div class="carousel-caption d-none d-md-block">
+                <h1 class="display-4">Bungalow Construction</h1>
+            </div>
+            </div>
+            <!-- Slide Three - Repair and Maintainence -->
+            <div class="carousel-item" style="background-image: linear-gradient( to bottom,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.4)), url(images/slider-03.jpg)">
+            <div class="carousel-caption d-none d-md-block">
+                <h1 class="display-4">Repair and Maintainence</h1>
+            </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#sliders" role="button" data-slide="prev">
+                <span><i class="fas fa-angle-left" aria-hidden="true"></i></span>
+                <span class="sr-only">Previous</span>
+            </a>
+        <a class="carousel-control-next" href="#sliders" role="button" data-slide="next">
+                <span><i class="fas fa-angle-right" aria-hidden="true"></i></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </header>
+    <!--End of Slider Windows-->
+
+    <!--quotation-form-->
+    <div id="quotation-form" class="quotation-form shadow p-8 mb-9 bg-white ">
+        
+        <a href="#" class="quotation-form-btn btn btn-lg" id="OpenForm">Quotation</a>
+        <div class="quotation_form_area">
+        <div class="quotation_form_area_inner">
+        <h3>Get Quotation</h3>
+        
+        <form>
+        
+        <div class="form-group">
+        <label>Name</label>
+        <input type="text" id="" class="custom-inp">
+        </div>
+        
+        <div class="form-group">
+        <label>Email</label>
+        <input type="email" id="" class="custom-inp">
+        </div>
+        
+        <div class="form-group">
+        <label>Mobile</label>
+        <input type="tel" id="" class="custom-inp">
+        </div>
+        
+        <div class="form-group">
+        <label>Subject</label>
+        <textarea id="" class="custom-inp-txt"></textarea>
+        </div>
+        
+        <div class="">
+        <input type="submit" id="quotation-button" class="btn">
+        </div>
+        
+        </form>
+        
+        </div>
+        </div>
+        
+        </div>
+        <!--quotation-form-->
+
+
+    <!--Start of Services-->
+    <div class="container" id="service-container">
+        <center>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p class="subtitle" style="color: #4654A3;" id="service-area">WHAT WE DO</p>
+                    <h2 class="section-title" >OUR SERVICE AREA</h2>
+                    <div class="divider-1"><div class="line"></div></div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <a href="industrial-sheds-construction.html"><div class="card border-0 shadow rounded-xs pt-5">
+                        <div class="card-body"> <i class="fa fa-warehouse icon-lg icon-green icon-bg-green icon-bg-circle mb-3"></i>
+                            <h4 class="mt-4 mb-3">Industrial Sheds Construction</h4>
+                            <p>We Provide best in class Industry Sheds and warehouses.</p>
+                        </div>
+                    </div></a> 
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <a href="industrial-maintainence.html"><div class="card border-0 shadow rounded-xs pt-5">
+                        <div class="card-body"> <i class="fa fa-drafting-compass icon-lg icon-yellow icon-bg-yellow icon-bg-circle mb-3"></i>
+                            <h4 class="mt-4 mb-3">Industrial Maintainence</h4>
+                            <p>We provide all kinds of maintainence services for different companies.</p>
+                        </div>
+                    </div></a> 
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <a href="fence-construction.html"><div class="card border-0 shadow rounded-xs pt-5">
+                        <div class="card-body"> <i class="fa fa-hammer icon-lg icon-red icon-bg-red icon-bg-circle mb-3"></i>
+                            <h4 class="mt-4 mb-3">Fence Construction</h4>
+                            <p>We are expert in making all kinds of fence structure.</p>
+                        </div>
+                    </div></a> 
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <a href="flooring-solution.html"><div class="card border-0 shadow rounded-xs pt-5">
+                        <div class="card-body"> <i class="fa fa-ruler-combined icon-lg icon-cyan icon-bg-cyan icon-bg-circle mb-3"></i>
+                            <h4 class="mt-4 mb-3">Flooring Solutions</h4>
+                            <p>Industrial Grade flooring with superior material quality and precise craftmenship</p>
+                        </div>
+                    </div></a> 
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <a href="repair-maintainence.html"><div class="card border-0 shadow rounded-xs pt-5">
+                        <div class="card-body"> <i class="fa fa-hard-hat icon-lg icon-red icon-bg-red icon-bg-circle mb-3"></i>
+                            <h4 class="mt-4 mb-3">Repair and Maintainence</h4>
+                            <p>We provide Recurring maintainence as well as repairs to our clients</p>
+                        </div>
+                    </div></a>                      
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <a href="home-renovation.html"><div class="card border-0 shadow rounded-xs pt-5">
+                        <div class="card-body"> <i class="fa fa-paint-roller icon-lg icon-green icon-bg-green icon-bg-circle mb-3"></i>
+                            <h4 class="mt-4 mb-3">Home Renovation</h4>
+                            <p>We provide complete renovation solutions for your house or apartment including Painting and Waterproofing.</p>
+                        </div>
+                    </div></a> 
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <a href="bungalow-construction.html"><div class="card border-0 shadow rounded-xs pt-5">
+                        <div class="card-body"> <i class="fa fa-home icon-lg icon-orange icon-bg-orange icon-bg-circle mb-3"></i>
+                            <h4 class="mt-4 mb-3">Bungalow Construction</h4>
+                            <p>Various kind Bunglow costruction is carried out by us</p>
+                        </div>
+                    </div></a> 
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <a href="waterproofing.html"><div class="card border-0 shadow rounded-xs pt-5">
+                        <div class="card-body"> <i class="fa fa-tint-slash icon-lg icon-blue icon-bg-blue icon-bg-circle mb-3"></i>
+                            <h4 class="mt-4 mb-3">Waterproofing</h4>
+                            <p>We Provide best in class Waterproofing solution to industries and homes</p>
+                        </div>
+                    </div></a> 
+                </div>
+            </div>
+        </div>    
+            <div class="divider-2"><div class="line"></div></div>   
+
+        </center>
+        <br>
+        <div class="col-lg-12 text-center">
+            <p class="subtitle" style="color: #4654A3;" id="clients">CLIENTS</p>
+            <h2 class="section-title" >OUR CLIENTS</h2>
+            <div class="divider-1"><div class="line"></div></div>
+
+        <section class="customer-logos slider">
+            <div class="slide">
+                <img src="images/vip-logo.png">
+            </div>
+            <div class="slide">
+                <img src="images/nima-logo.png">
+            </div>
+            <div class="slide">
+                <img src="images/shaan-logo.png">
+            </div>
+            <div class="slide">
+                <img src="images/ccr-logo.png">
+            </div>
+            <div class="slide">
+                <img src="images/cupid-logo.png">
+            </div>
+            <div class="slide">
+                <img src="images/gargoti-logo.png">
+            </div>
+            <div class="slide">
+                <img src="images/l&t-logo.png">
+            </div>
+        </section>
+        </div>
+        <br><br><br>
+            <div class="divider-2"><div class="line"></div></div>   
+        <br>
+
+        
+        <div class="col-lg-12 text-center">
+            <p class="subtitle" style="color: #4654A3;" id="aboutus">WHY CHOOSE US</p>
+                <h2 class="section-title" >ABOUT US</h2>
+                    <div class="divider-1"><div class="line"></div></div>
+            <div class="py-6">
+                <div class="container py-6">
+                <div class="row align-items-center mb-5">
+                    <div class="col-lg-6 order-2 order-lg-1">
+                    <h2 class="font-weight-light">More than 25 year experience in construction industry</h2>
+                    <p class="font-italic text-muted mb-4"> <strong style="color: #4654A3;">Yadav Civil Contractors</strong> strive to give our clients the best of construction services. Making a house of their own is a dream and we are here to realize your dream for you.</p><a href="about-us.html" class="btn btn-light px-5 rounded-pill shadow rounded-xs">  <strong>Learn More</strong> </a>
+                    </div>
+                    <div class="col-lg-5 px-5 mx-auto order-1 order-lg-2"><img src="https://img.icons8.com/cotton/128/4654A3/growth-and-flag.png"/></div>
+                </div>
+
+                <div class="row align-items-left">
+                    <div class="col-lg-6">
+                        <img src="https://img.icons8.com/cotton/64/4654A3/construction-plan.png"/>
+                    <h2 class="font-weight-light">Architecture Design</h2>
+                    <p class="font-italic text-muted mb-4">The best designs for your house and buildings.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="https://img.icons8.com/cotton/64/4654A3/waggon-truck.png"/>
+                    <h2 class="font-weight-light">Building Construction</h2>
+                    <p class="font-italic text-muted mb-4">We use best quality materials to build your dream home.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="https://img.icons8.com/dusk/64/4654A3/customer-insight.png"/>
+                    <h2 class="font-weight-light">10,000+ Satisfied Customers</h2>
+                    <p class="font-italic text-muted mb-4">Customer Satisfaction is our main motto.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="https://img.icons8.com/ultraviolet/64/4654A3/group-task.png"/>
+                        <h2 class="font-weight-light">Team Work</h2>
+                        <p class="font-italic text-muted mb-4">People are our real assets</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>  
+        <div class="divider-2"><div class="line"></div></div>      
+
+        <div class="col-lg-12 text-center">
+            <p class="subtitle" style="color: #4654A3;" id="aboutus">What our customers are saying</p>
+            <h2 class="section-title" >TESTIMONIAL</h2> <div class="divider-1">
+            <div class="line"></div></div>
+            <br>
+            <br>
+            <center>
+                <div class="py-6">
+                    <div class="container py-6">
+                        <div class="row">
+                            <div class="col-lg-12 text-center">
+                                <div id="myCarousel">
+                                        <div class="testimonial">
+                                            <p class="font-italic text-muted mb-4">We are working with Yadav Civil Constractors since 15 years. Best quality service and on time completion of all kinds of tasks. Very skilled labours and good quality materials used by them.</p>
+                                            <p class="overview"><b>Mr.Ravindra Gaidhani</b>, VIP Industries, Satpur.</p>
+                                        </div>
+                                        <br><br>
+                                        <div class="testimonial">
+                                            <p>Best quality construction work. Skilled Labour and on time completion. Will recommend them for all kinds of construction related works.</p>
+                                            <p class="overview"><b>Mr.Pawar</b>, Ishwari Enterprises, Sinnar</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br><br>
+                            <a href="client.html" class="btn btn-light px-5 rounded-pill shadow rounded-xs"><strong>Read More</strong> </a>
+                            <br><br><br><br><br><br>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            </center>
+        <a href="https://wa.link/1rhd1m" class="chat-float" target="_blank">
+            <i class="fa fa-whatsapp my-float"></i>
+        </a>
+    </div>
+    <!-- Footer -->
+<footer class="page-footer font-small stylish-color-dark pt-4" id="#footer">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+  
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-4 mx-auto">
+  
+            <!-- Content -->
+            <h5 class="font-weight-bold text-uppercase mt-3 mb-4"><img src="images/logo-favicon.png" alt="" width="65">Yadav Civil Contractors</h5>
+            <p>Yadav Civil Contractors strive to give our clients the best of construction services. Making a house of their own is a dream and we are here to realize your dream for you.</p>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+  
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">About Us</h5>
+
+          <ul class="list-unstyled">
+            <li>
+                
+              <a href="#!">Company Overview</a>
+            </li>
+            <br>
+            <li>
+              <a href="about-us.html">Our Team</a>
+            </li>
+            <br>
+            <li>
+              <a href="gallery.html">Our Projects</a>
+            </li>
+            <br>
+            <li>
+              <a href="client.html">Our Clients</a>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+  
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Services</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="industrial-sheds-construction.html">Industrial Sheds & Fabrication</a>
+            </li>
+            <br>
+            <li>
+              <a href="industrial-maintainence.html">Industrial Maintainence</a>
+            </li>
+            <br>
+            <li>
+              <a href="waterproofing.html">Painting and Waterproofing</a>
+            </li>
+            <br>
+            <li>
+              <a href="flooring-solution.html">Flooring Solutions</a>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+  
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Contact Us</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="tel: 9421501148">+91 9421501148</a>
+            </li>
+            <br>
+            <li>
+              <a href="mailto:yprakash51@gmail.com">yprakash51@gmail.com</a>
+            </li>
+            <br>
+            <li>
+              <a href="https://g.page/yadav-saheb-sinnar-construction?share">X-20, MIDC Malegaon,
+                Sinner, Nashik-422103</a>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  
+    <hr>
+  
+    <!-- Call to action -->
+    <ul class="list-unstyled list-inline text-center py-2">
+      <li class="list-inline-item">
+        <h5 class="mb-1">Get a Quotation Now</h5>
+      </li>
+      <li class="list-inline-item">
+        <a href="contact-us.html" class="btn btn-rounded" id="quotation-button">Click Here</a>
+      </li>
+    </ul>
+    <!-- Call to action -->
+  
+    <hr>
+  
+    <!-- Social buttons -->
+    <ul class="list-unstyled list-inline text-center">
+      <li class="list-inline-item">
+        <a class="btn-floating btn-fb mx-1">
+          <i class="fab fa-facebook-f"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-tw mx-1">
+          <i class="fab fa-twitter"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-wht mx-1" href="https://wa.link/1rhd1m">
+          <i class="fab fa-whatsapp" id="whatsapp-icon"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-li mx-1">
+          <i class="fab fa-linkedin-in"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-location mx-1" href="https://g.page/yadav-saheb-sinnar-construction?share">
+          <i class="fas fa-compass"> </i>
+        </a>
+      </li>
+    </ul>
+    <!-- Social buttons -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">
+      <a href="index.html"> <img src="images/logo-favicon.png" alt="" width="55">Yadav Civil Contractors</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+
+    <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
